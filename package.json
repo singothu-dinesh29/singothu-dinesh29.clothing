@@ -1,0 +1,35 @@
+{
+  "name": "luxury-fashion-ecommerce",
+  "version": "1.0.0",
+  "description": "Premium fashion e-commerce platform inspired by Zara",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0",
+    "typescript": "^5.3.0",
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.30",
+    "autoprefixer": "^10.4.16",
+    "framer-motion": "^10.16.4",
+    "zustand": "^4.4.1",
+    "axios": "^1.5.0",
+    "react-intersection-observer": "^9.5.2",
+    "lucide-react": "^0.263.0",
+    "classnames": "^2.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "eslint": "^8.49.0",
+    "eslint-config-next": "^14.0.0"
+  }
+}
